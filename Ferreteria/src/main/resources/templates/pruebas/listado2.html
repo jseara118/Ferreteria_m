@@ -7,15 +7,12 @@
         <title>FerroMart</title>
         <meta charset="UTF-8"/>
     </head>
-    
-    <body>
 
+    <body>
         <header th:replace="~{layout/plantilla :: header}"/>
 
-        <section th:replace="~{categoria/fragmentos :: botonesAgregar}"/>
-        <section th:replace="~{categoria/fragmentos :: listadoCategorias}"/>
-        <section th:replace="~{categoria/fragmentos :: agregarCategoria}"/>
-
+        <section th:replace="~{pruebas/fragmentos :: filtros}"/>
+        <section th:replace="~{pruebas/fragmentos :: listadoProductos}"/>
 
     </body>
 </html>
